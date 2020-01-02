@@ -1,7 +1,7 @@
-package sktest.spring.demo.aop.invalid.component;
+package sktest.spring.demo.aop.ivd.component;
 
 import org.junit.Test;
-import org.shaneking.spring.demo.aop.invalid.component.AopInvalidComponent;
+import org.shaneking.spring.demo.aop.ivd.component.AopInvalidComponent;
 import org.springframework.beans.factory.annotation.Autowired;
 import sktest.spring.demo.SKUnit;
 

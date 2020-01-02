@@ -1,7 +1,3 @@
-# org.shaneking.spring.demo
-There are Spring Demo for <http://shaneking.org>
-
-## Aop Invalid Demo
-- [main](./src/main/java/org/shaneking/spring/demo/aop/invalid)
-- [test](./src/test/java/sktest/spring/demo/aop/invalid)
+# Spring Aop Invalid Demo
+<https://shaneking.org/2019/11/16/aop-invalid-for-inner-calling-in-class/>
 

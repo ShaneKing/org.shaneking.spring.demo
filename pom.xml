@@ -9,13 +9,13 @@
     <relativePath>../org.shaneking.spring</relativePath>
   </parent>
 
-  <artifactId>org.shaneking.spring.demo</artifactId>
+  <artifactId>org.shaneking.spring.demo.aop.ivd</artifactId>
   <version>${project.parent.version}</version>
   <packaging>jar</packaging>
 
-  <name>Spring Series Demo Project for ShaneKing</name>
-  <description>Spring Series Demo Project For ShaneKing</description>
-  <url>https://github.com/ShaneKing/org.shaneking.spring.demo</url>
+  <name>Spring Aop Invalid Demo for ShaneKing</name>
+  <description>Spring Aop Invalid Demo For ShaneKing</description>
+  <url>https://github.com/ShaneKing/org.shaneking.spring.demo.aop.ivd</url>
   <inceptionYear>2011-2019</inceptionYear>
 
   <organization>
@@ -65,17 +65,17 @@
   </contributors>
 
   <scm>
-    <connection>scm:git:git@github.com:ShaneKing/org.shaneking.spring.demo.git</connection>
-    <developerConnection>scm:git:git@github.com:ShaneKing/org.shaneking.spring.demo.git</developerConnection>
-    <url>git@github.com:ShaneKing/org.shaneking.spring.demo.git</url>
+    <connection>scm:git:git@github.com:ShaneKing/org.shaneking.spring.demo.aop.ivd.git</connection>
+    <developerConnection>scm:git:git@github.com:ShaneKing/org.shaneking.spring.demo.aop.ivd.git</developerConnection>
+    <url>git@github.com:ShaneKing/org.shaneking.spring.demo.aop.ivd.git</url>
   </scm>
   <issueManagement>
     <system>Github</system>
-    <url>https://github.com/ShaneKing/org.shaneking.spring.demo/issues</url>
+    <url>https://github.com/ShaneKing/org.shaneking.spring.demo.aop.ivd/issues</url>
   </issueManagement>
   <ciManagement>
     <system>Travis-CI</system>
-    <url>https://travis-ci.org/ShaneKing/org.shaneking.spring.demo</url>
+    <url>https://travis-ci.org/ShaneKing/org.shaneking.spring.demo.aop.ivd</url>
   </ciManagement>
 
   <dependencies>

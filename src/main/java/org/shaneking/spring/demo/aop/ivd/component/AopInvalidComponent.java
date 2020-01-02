@@ -1,6 +1,6 @@
-package org.shaneking.spring.demo.aop.invalid.component;
+package org.shaneking.spring.demo.aop.ivd.component;
 
-import org.shaneking.spring.demo.aop.invalid.annotation.AopInvalidAnno;
+import org.shaneking.spring.demo.aop.ivd.annotation.AopInvalidAnno;
 import org.springframework.aop.framework.AopContext;
 import org.springframework.stereotype.Component;
 
