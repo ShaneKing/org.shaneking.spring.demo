@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class AopInvalidComponent {
-
   @AopInvalidAnno
   public void aopValid() {
     System.out.println(this.getClass().getName());

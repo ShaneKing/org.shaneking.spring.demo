@@ -12,7 +12,6 @@ import org.springframework.stereotype.Component;
 @Component
 @Slf4j
 public class AopInvalidAspect {
-
   @Pointcut("execution(@org.shaneking.spring.demo.aop.ivd.annotation.AopInvalidAnno * *..*.*(..))")
   private void pointcut() {
   }

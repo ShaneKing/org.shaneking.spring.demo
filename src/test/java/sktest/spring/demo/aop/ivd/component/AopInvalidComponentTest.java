@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import sktest.spring.demo.SKUnit;
 
 public class AopInvalidComponentTest extends SKUnit {
-
   @Autowired
   private AopInvalidComponent aopInvalidComponent;
 
