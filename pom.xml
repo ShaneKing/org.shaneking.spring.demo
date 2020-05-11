@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.shaneking.spring</groupId>
     <artifactId>org.shaneking.spring</artifactId>
-    <version>0.2.3</version>
+    <version>0.2.4</version>
     <relativePath>../org.shaneking.spring</relativePath>
   </parent>
 
@@ -104,6 +104,12 @@
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.shaneking.spring</groupId>
+      <artifactId>org.shaneking.spring.test</artifactId>
+      <version>${project.parent.version}</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
   <build>

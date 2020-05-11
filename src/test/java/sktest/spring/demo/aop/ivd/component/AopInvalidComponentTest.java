@@ -3,9 +3,9 @@ package sktest.spring.demo.aop.ivd.component;
 import org.junit.Test;
 import org.shaneking.spring.demo.aop.ivd.component.AopInvalidComponent;
 import org.springframework.beans.factory.annotation.Autowired;
-import sktest.spring.demo.SKUnit;
+import sktest.spring.demo.SpringUnit;
 
-public class AopInvalidComponentTest extends SKUnit {
+public class AopInvalidComponentTest extends SpringUnit {
   @Autowired
   private AopInvalidComponent aopInvalidComponent;
 
