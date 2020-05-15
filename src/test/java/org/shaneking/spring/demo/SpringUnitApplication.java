@@ -1,4 +1,5 @@
-package sktest.spring.demo;
+//!important:the Application package must parent of Spring annotations if no AutoConfiguration in src
+package org.shaneking.spring.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
