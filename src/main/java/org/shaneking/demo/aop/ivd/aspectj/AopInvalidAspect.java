@@ -1,18 +1,18 @@
-package org.shaneking.spring.demo.aop.ivd.aspectj;
+package org.shaneking.demo.aop.ivd.aspectj;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
-import org.shaneking.spring.demo.aop.ivd.annotation.AopInvalidAnno;
+import org.shaneking.demo.aop.ivd.annotation.AopInvalidAnno;
 import org.springframework.stereotype.Component;
 
 @Aspect
 @Component
 @Slf4j
 public class AopInvalidAspect {
-  @Pointcut("execution(@org.shaneking.spring.demo.aop.ivd.annotation.AopInvalidAnno * *..*.*(..))")
+  @Pointcut("execution(@org.shaneking.demo.aop.ivd.annotation.AopInvalidAnno * *..*.*(..))")
   private void pointcut() {
   }
 

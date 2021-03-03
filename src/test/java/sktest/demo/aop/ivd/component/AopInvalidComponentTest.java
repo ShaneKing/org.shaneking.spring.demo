@@ -1,11 +1,11 @@
-package sktest.spring.demo.aop.ivd.component;
+package sktest.demo.aop.ivd.component;
 
-import org.junit.Test;
-import org.shaneking.spring.demo.aop.ivd.component.AopInvalidComponent;
+import org.junit.jupiter.api.Test;
+import org.shaneking.demo.aop.ivd.component.AopInvalidComponent;
+import org.shaneking.leon.test.SKSpringMvcUnit;
 import org.springframework.beans.factory.annotation.Autowired;
-import sktest.spring.demo.SpringUnit;
 
-public class AopInvalidComponentTest extends SpringUnit {
+public class AopInvalidComponentTest extends SKSpringMvcUnit {
   @Autowired
   private AopInvalidComponent aopInvalidComponent;
 

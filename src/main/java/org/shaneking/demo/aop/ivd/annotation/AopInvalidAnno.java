@@ -1,4 +1,4 @@
-package org.shaneking.spring.demo.aop.ivd.annotation;
+package org.shaneking.demo.aop.ivd.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
